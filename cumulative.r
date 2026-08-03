@@ -2,11 +2,9 @@
 
 #create a sample numeric vector
 data_vector<-c(3,5,7,2,10,8) 
-
 #cumulative sum
 cumulative_sum<-cumsum(data_vector)
 cat("cumulative sum:",cumulative_sum,"\n")
-
 #cum product
 cumulative_product<-cumprod(data_vector)
 cat("cumulative product:",cumulative_product,"\n")
